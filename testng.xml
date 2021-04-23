@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Default Suite">
+    <test name="SetokoAPI">
+        <classes>
+            <class name="test.TC01_GetAll_Product"/>
+            <class name="test.TC02_GetSingle_Product"/>
+            <class name="test.TC03_Post_Product"/>
+            <class name="test.TC04_Put_Product"/>
+            <class name="test.TC05_Delete_Product"/>
+        </classes>
+    </test> <!-- SetokoAPI -->
+</suite> <!-- Default Suite -->
